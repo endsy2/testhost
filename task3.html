@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="task3.css" />
+    <link rel="stylesheet" href="task1.css" />
+  </head>
+  <body>
+    <form action="" class="container">
+      <label>Name<span class="red-bg">*</span></label>
+      <input type="text" required placeholder="Name" id="name-data" />
+      <label>Age<span class="red-bg">*</span></label>
+      <input type="text" required placeholder="Age" id="age-data" />
+      <label>Grade <span class="red-bg">*</span></label>
+      <input type="email" required placeholder="Grade" id="grade-data" />
+      <label>Email <span class="red-bg">*</span></label>
+      <input type="email" required placeholder="Email" id="email-data" />
+      <div class="container2">
+        <button class="submit-btn" id="submit" type="button">Add</button>
+        <button class="clear-btn" id="clear" type="button">Clear</button>
+      </div>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </body>
+  <script src="task3.js"></script>
+</html>

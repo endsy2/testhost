@@ -1,0 +1,103 @@
+table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+th,
+td {
+  border: 1px solid rgb(32, 32, 134);
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+th {
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+}
+.icon-style {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.red-bg {
+  color: red;
+}
+body {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 200px 20px;
+}
+.container {
+  margin: 200px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px rgb(32, 32, 134) solid;
+  padding: 50px;
+  border-radius: 20px;
+  height: 400px;
+}
+label {
+  font-size: 1.3rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 350px;
+  height: 40px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  border: 1px black solid;
+  margin-top: 3px;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 4px 10px;
+  opacity: 80%;
+  font-size: 1rem;
+}
+.submit-btn {
+  color: white;
+  background-color: rgb(32, 32, 134);
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.clear-btn {
+  color: rgb(32, 32, 134);
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.container2,
+input[type="submit"],
+button {
+  margin-right: 2px;
+}
+table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+th,
+td {
+  border: 1px solid rgb(32, 32, 134);
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+th {
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+}
